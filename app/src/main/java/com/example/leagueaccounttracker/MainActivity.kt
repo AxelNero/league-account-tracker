@@ -10,6 +10,7 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import com.example.leagueaccounttracker.DataBase.TestScreen
 import com.example.leagueaccounttracker.ui.theme.LeagueAccountTrackerTheme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +23,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    //Greeting("Android")
+                    TestScreen()
                 }
             }
         }
@@ -41,6 +43,7 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun GreetingPreview() {
     LeagueAccountTrackerTheme {
-        Greeting("Android")
+        //Greeting("Android")
+        TestScreen()
     }
 }

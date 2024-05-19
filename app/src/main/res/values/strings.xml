@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LeagueAccountTracker</string>
+    <string name="no_item_description">Didnt know we had a new player</string>
 </resources>
